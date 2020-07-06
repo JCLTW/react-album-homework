@@ -1,4 +1,23 @@
 .UserInfo {
   padding-top: 60px;
   width: 400px;
+
+  .sub-title{
+    color: grey;
+    font-size: medium;
+    margin-top: 36px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    label{ 
+      font-weight: bold;
+    }
+    .highlight {
+      color: cornflowerblue;
+    }
+  }
 }
